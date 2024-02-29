@@ -1,4 +1,5 @@
-# THIS is a simple program to DEMO "ONE SOCKET SERVER TO CLIENT MODEL" over different programming language.THIS PACKAGE CONTAINS DATA COMMUNICATION BETWEEN TWO DIFFERENT PROGRAMS over the same network within the same network. First socket is built in IPV4 protocol with some port number and fixed ip address as 127.0.0.1 as loopback address for same host(server and client both on same machine/system/device). Address and port are defined inside a struct sockaddr_in which specifies which address and port for server, client to communicate. 
+## Intro
+THIS is a simple program to DEMO "ONE SOCKET SERVER TO CLIENT MODEL" over different programming language.THIS PACKAGE CONTAINS DATA COMMUNICATION BETWEEN TWO DIFFERENT PROGRAMS over the same network within the same network. First socket is built in IPV4 protocol with some port number and fixed ip address as 127.0.0.1 as loopback address for same host(server and client both on same machine/system/device). Address and port are defined inside a struct sockaddr_in which specifies which address and port for server, client to communicate. 
 
-# DATA INTEGRITY
-## For data transmission we use clear buffer technique. Before store reading/receiving content in buffer, we clear buffer and store received data in buffer. Similarly before writing/sending data we, clear buffer and write full data from end to end for data framing which ensures better data transmission over network.
+## DATA INTEGRITY
+For data transmission we use clear buffer technique. Before store reading/receiving content in buffer, we clear buffer and store received data in buffer. Similarly before writing/sending data we, clear buffer and write full data from end to end for data framing which ensures better data transmission over network.
