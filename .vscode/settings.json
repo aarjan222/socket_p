@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.ipp": "cpp",
+        "socket.h": "c",
+        "types.h": "c"
+    }
+}

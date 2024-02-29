@@ -1,0 +1,17 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Python byte-compiled files
+__pycache__/
+
+# Ignore compiled C++ files
+*.o
+*.out
+
+# Ignore executables
+*.exe
+*.dll
+*.so
+
+# Ignore build directories
+build/
